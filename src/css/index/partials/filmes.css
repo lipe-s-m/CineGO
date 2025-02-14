@@ -1,0 +1,16 @@
+.filmes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+  padding: 1rem;
+  gap: 0.4rem;
+}
+
+.filmes__filme {
+  background-color: blanchedalmond;
+  width: (25% - 1rem);
+  padding: 2rem;
+}

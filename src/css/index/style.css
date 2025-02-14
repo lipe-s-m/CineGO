@@ -1,0 +1,15 @@
+@import url("./../global/global.css");
+@import url("./partials/partials.css");
+
+body {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  background-color: #200000;
+
+}
+
+main {
+  flex: 1;
+}
