@@ -1,4 +1,9 @@
 {
+  "name": "cinego",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "echo 'No build step required for static project'"
+  },
   "type": "module",
   "devDependencies": {
     "@eslint/js": "^9.20.0",
