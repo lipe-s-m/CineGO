@@ -7,8 +7,9 @@ import express from 'express';
 
 const app = express();
 const port = 3001;
+console.log(process.env.API_KEY);
 
-app.get('/api/key', (req, res) => {
+app.get('api/key', (req, res) => {
   if (!process.env.API_KEY) {
     console.log('tp aq');
 
